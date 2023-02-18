@@ -1,0 +1,6 @@
+<?php
+echo "Odd numbers between 10 to 100 :- ";
+    for ($i=11; $i<=99; $i+=2){
+        echo $i.", ";
+    }
+?>

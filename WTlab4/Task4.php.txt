@@ -1,0 +1,15 @@
+<?php
+      $num1=20;
+      $num2=15;
+      $num3=22;
+      if($num1>$num2 && $num1>$num3){
+        echo "Largest Num is $num1";
+      }
+      else{
+        if($num2>$num1 && $num2>$num3){
+          echo "Largest Num is $num2";
+        }
+        else
+          echo "Largest Num is $num3";
+      }
+?>
